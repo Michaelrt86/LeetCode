@@ -1,0 +1,2 @@
+I seriously overcomplicated this Leetcoding question and did not understand how simple you could make it! I look forward to simplifying and understanding my code further.
+  Even though my time complexity wasn't terrible there are massive areas of improvement in the optimization of my code!
