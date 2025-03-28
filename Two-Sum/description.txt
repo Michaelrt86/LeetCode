@@ -1,1 +1,14 @@
+Description of the problem:
+Given an array of integers nums and an integer target, return indices of the two numbers such that they add up to target.
+You may assume that each input would have exactly one solution, and you may not use the same element twice.
+You can return the answer in any order.
 
+My initial thoughts on the problem:
+I could have just done a brute force implementation and gotten an O(n^2) time complexity for the function but I wanted to challenge myself since 
+this was the first leetcode problem I had ever done. I decided I could at minimum get an O(n) time complexity due to the requirement of traversing an array
+of "n" complexity. I decided to use a hashmap to go through and try to find a pair faster that added up to the target sum.
+
+My thoughts after I found the easier solution
+I seriously overcomplicated this Leetcoding question and did not understand how simple you could make it! I look forward to simplifying and understanding 
+my code further. Even though my time complexity wasn't terrible there are definitely areas of improvement within my code. I recreated the easier solution 
+with a more complex solution.
