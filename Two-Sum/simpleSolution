@@ -6,14 +6,17 @@ class simpleSolution {
             int complement = target - nums[i];
             
             if (map.containsKey(complement)) {
+                //Returning an integer array like this saves more memory than trying to create a variable that holds its value!
                 return new int[]{map.get(complement), i}; // Found pair
             }
-            
+            //Adding the number to the hashmap after verifies that it will not recieve a duplicate before it ever gets put into the array!
+            //This issue was the one I struggled with the most in my implementation and seeing this definitely made me feel a little stupid!!
             map.put(nums[i], i); // Store the number and its index
         }
         
         return new int[]{-1, -1}; 
     }
+
     public static void main(String[] args) {
         System.out.println("Welcome to my Solution!");
 
